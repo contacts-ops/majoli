@@ -1,0 +1,118 @@
+{
+  "id": "newsletter-hero",
+  "name": "Newsletter Hero",
+  "type": "hero",
+  "version": 1,
+  "description": "Bandeau Newsletter avec image de fond et formulaire d'inscription.",
+  "author": "MajoliHub",
+  "thumbnail": "/placeholder.svg",
+  "dependencies": {},
+  "required": {
+    "primaryColor": true,
+    "secondaryColor": true,
+    "backgroundColor": true,
+    "textColor": true,
+    "fontFamily": true,
+    "secondaryFontFamily": true
+  },
+  "props": {
+    "primaryColor": {
+      "type": "string",
+      "required": true,
+      "default": "#0066CC",
+      "label": "Couleur primaire (bouton)"
+    },
+    "secondaryColor": {
+      "type": "string",
+      "required": true,
+      "default": "#FFFFFF",
+      "label": "Couleur secondaire (texte)"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "required": true,
+      "default": "#000000",
+      "label": "Couleur de fond (overlay)"
+    },
+    "textColor": {
+      "type": "string",
+      "required": true,
+      "default": "#FFFFFF",
+      "label": "Couleur du texte"
+    },
+    "fontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "Inter",
+      "label": "Police principale"
+    },
+    "secondaryFontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "Inter",
+      "label": "Police secondaire"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Newsletter",
+      "label": "Titre"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "default": "Recevez nos conseils d'experts, nos offres exclusives et les nouveautés produits en avant-première directement dans votre boîte mail.",
+      "label": "Description"
+    },
+    "inputPlaceholder": {
+      "type": "string",
+      "required": true,
+      "default": "Votre adresse e-mail",
+      "label": "Placeholder du champ email"
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true,
+      "default": "Envoyer",
+      "label": "Texte du bouton"
+    },
+    "buttonLink": {
+      "type": "string",
+      "required": true,
+      "default": "#",
+      "label": "Lien du bouton"
+    },
+    "mediaUrl": {
+      "type": "string",
+      "required": false,
+      "default": "https://images.unsplash.com/photo-1553413077-190dd305871c?w=1920",
+      "label": "Image ou vidéo de fond"
+    },
+    "mediaAlt": {
+      "type": "string",
+      "required": false,
+      "default": "Entrepôt industriel",
+      "label": "Texte alternatif du média"
+    },
+    "mediaType": {
+      "type": "string",
+      "required": false,
+      "default": "image",
+      "label": "Type de média",
+      "options": ["image", "video"]
+    },
+    "paddingTop": {
+      "type": "number",
+      "required": false,
+      "default": 0,
+      "label": "Padding haut"
+    },
+    "paddingBottom": {
+      "type": "number",
+      "required": false,
+      "default": 0,
+      "label": "Padding bas"
+    }
+  },
+  "active": true
+}
