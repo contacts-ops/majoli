@@ -1,0 +1,100 @@
+{
+  "id": "blog-hero",
+  "name": "Blog Hero",
+  "type": "hero",
+  "version": 1,
+  "description": "Hero section with video background for Blog.",
+  "author": "MajoliHub",
+  "thumbnail": "/placeholder.svg",
+  "dependencies": {
+    "lucide-react": "^0.462.0"
+  },
+  "required": {
+    "primaryColor": true,
+    "secondaryColor": true,
+    "fontFamily": true,
+    "secondaryFontFamily": true
+  },
+  "props": {
+    "primaryColor": {
+      "type": "string",
+      "required": true,
+      "default": "#2E7D32"
+    },
+    "secondaryColor": {
+      "type": "string",
+      "required": true,
+      "default": "#FFFFFF"
+    },
+    "textColor": {
+      "type": "string",
+      "required": true,
+      "default": "#000000"
+    },
+    "titleColor": {
+      "type": "string",
+      "required": true,
+      "default": "#FFFFFF"
+    },
+    "fontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "serif",
+      "label": "Primary font (Titles)"
+    },
+    "secondaryFontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "Poppins",
+      "label": "Secondary font (Body text)"
+    },
+    "titleFont": {
+      "type": "string",
+      "required": true,
+      "default": "Playfair Display",
+      "label": "Title font"
+    },
+    "paddingTop": {
+      "type": "number",
+      "required": true,
+      "default": 0,
+      "label": "Padding top"
+    },
+    "paddingBottom": {
+      "type": "number",
+      "required": true,
+      "default": 0,
+      "label": "Padding bottom"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Blog"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true,
+      "default": "Je partage avec vous des conseils juridiques, des actualités et des analyses pour mieux comprendre vos droits."
+    },
+    "ctaText": {
+      "type": "string",
+      "required": true,
+      "default": "ÊTRE AIDÉ DÈS AUJOURD'HUI"
+    },
+    "ctaLink": {
+      "type": "string",
+      "required": true,
+      "default": "https://www.majoli.io/contact"
+    },
+    "videoUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/componentsImage/blog-hero/hero-vedio-blog.mp4"
+    },
+    "backgroundPaintBrushImage": {
+      "type": "string",
+      "required": true,
+      "default": "/placeholder.svg"
+    }
+  }
+}
