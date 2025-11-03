@@ -1,0 +1,319 @@
+{
+  "id": "article-figma",
+  "name": "Article Figma - Grille de Produits",
+  "type": "content",
+  "version": 1,
+  "description": "Section de grille de 6 cartes produits avec images, titres, descriptions et boutons CTA. Design fidèle à la maquette Figma avec bordure bleue.",
+  "author": "MajoliHub",
+  "thumbnail": "/placeholder.svg",
+  "dependencies": {},
+  "required": {
+    "primaryColor": true,
+    "secondaryColor": true,
+    "fontFamily": true,
+    "secondaryFontFamily": true
+  },
+  "props": {
+    "primaryColor": {
+      "type": "string",
+      "required": true,
+      "default": "#0066CC",
+      "label": "Couleur primaire (bordure)"
+    },
+    "secondaryColor": {
+      "type": "string",
+      "required": true,
+      "default": "#FFFFFF",
+      "label": "Couleur secondaire (fond cartes)"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "required": true,
+      "default": "#F5F5F5",
+      "label": "Couleur de fond"
+    },
+    "textColor": {
+      "type": "string",
+      "required": true,
+      "default": "#333333",
+      "label": "Couleur du texte"
+    },
+    "buttonColor": {
+      "type": "string",
+      "required": true,
+      "default": "#0066CC",
+      "label": "Couleur du bouton"
+    },
+    "buttonTextColor": {
+      "type": "string",
+      "required": true,
+      "default": "#FFFFFF",
+      "label": "Couleur du texte du bouton"
+    },
+    "fontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "Arial",
+      "label": "Police principale (titres)"
+    },
+    "secondaryFontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "Arial",
+      "label": "Police secondaire (textes)"
+    },
+    "card1Title": {
+      "type": "string",
+      "required": true,
+      "default": "Gerbeurs",
+      "label": "Carte 1 - Titre"
+    },
+    "card1Text": {
+      "type": "string",
+      "required": true,
+      "default": "Indispensables pour le levage et le stockage en hauteur, nos gerbeurs manuels et électriques vous permettent d'organiser chaque mètre carré de votre entrepôt.\n\nGagnez en efficacité et en sécurité lors de vos opérations de mise en rayon et de chargement. Découvrez notre gamme complète de gerbeurs adaptés à toutes les cadences de travail.",
+      "label": "Carte 1 - Description"
+    },
+    "card1ButtonText": {
+      "type": "string",
+      "required": true,
+      "default": "Explorez nos produits",
+      "label": "Carte 1 - Texte du bouton"
+    },
+    "card1ButtonUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/gerbeurs",
+      "label": "Carte 1 - Lien du bouton"
+    },
+    "card1MediaUrl": {
+      "type": "string",
+      "required": true,
+      "default": "https://placehold.co/400x300",
+      "label": "Carte 1 - Image/Vidéo"
+    },
+    "card1MediaAlt": {
+      "type": "string",
+      "required": true,
+      "default": "Gerbeurs",
+      "label": "Carte 1 - Texte alternatif"
+    },
+    "card1MediaType": {
+      "type": "string",
+      "required": true,
+      "default": "image",
+      "label": "Carte 1 - Type de média"
+    },
+    "card2Title": {
+      "type": "string",
+      "required": true,
+      "default": "Transpalettes",
+      "label": "Carte 2 - Titre"
+    },
+    "card2Text": {
+      "type": "string",
+      "required": true,
+      "default": "L'outil indispensable pour le déplacement de charges lourdes sur palette. Nos transpalettes manuels et transpalettes vous permettent d'accélérer vos opérations de chargement et de transfert en entrepôt.\n\nExplorez notre sélection de modèles manuels, électriques ou peseurs pour trouver la solution adaptée à votre flux logistique.",
+      "label": "Carte 2 - Description"
+    },
+    "card2ButtonText": {
+      "type": "string",
+      "required": true,
+      "default": "Explorez nos produits",
+      "label": "Carte 2 - Texte du bouton"
+    },
+    "card2ButtonUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/transpalettes",
+      "label": "Carte 2 - Lien du bouton"
+    },
+    "card2MediaUrl": {
+      "type": "string",
+      "required": true,
+      "default": "https://placehold.co/400x300",
+      "label": "Carte 2 - Image/Vidéo"
+    },
+    "card2MediaAlt": {
+      "type": "string",
+      "required": true,
+      "default": "Transpalettes",
+      "label": "Carte 2 - Texte alternatif"
+    },
+    "card2MediaType": {
+      "type": "string",
+      "required": true,
+      "default": "image",
+      "label": "Carte 2 - Type de média"
+    },
+    "card3Title": {
+      "type": "string",
+      "required": true,
+      "default": "Tables Élévatrices",
+      "label": "Carte 3 - Titre"
+    },
+    "card3Text": {
+      "type": "string",
+      "required": true,
+      "default": "Améliorez l'ergonomie de vos postes de travail et prévenez les troubles musculosquelettiques. Nos tables élévatrices permettent de mettre à niveau vos charges pour une manipulation facile et une préparation en conformité.\n\nManuelles ou électriques, nos solutions s'adaptent à vos besoins pour un confort de travail optimal.",
+      "label": "Carte 3 - Description"
+    },
+    "card3ButtonText": {
+      "type": "string",
+      "required": true,
+      "default": "Explorez nos produits",
+      "label": "Carte 3 - Texte du bouton"
+    },
+    "card3ButtonUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/tables-elevatrices",
+      "label": "Carte 3 - Lien du bouton"
+    },
+    "card3MediaUrl": {
+      "type": "string",
+      "required": true,
+      "default": "https://placehold.co/400x300",
+      "label": "Carte 3 - Image/Vidéo"
+    },
+    "card3MediaAlt": {
+      "type": "string",
+      "required": true,
+      "default": "Tables Élévatrices",
+      "label": "Carte 3 - Texte alternatif"
+    },
+    "card3MediaType": {
+      "type": "string",
+      "required": true,
+      "default": "image",
+      "label": "Carte 3 - Type de média"
+    },
+    "card4Title": {
+      "type": "string",
+      "required": true,
+      "default": "Nacelles Élévatrices",
+      "label": "Carte 4 - Titre"
+    },
+    "card4Text": {
+      "type": "string",
+      "required": true,
+      "default": "Atteignez les zones de travail les plus inaccessibles en toute sécurité avec nos nacelles élévatrices. Idéales pour les travaux de maintenance, d'installation ou d'inventaire, elles offrent une plateforme stable et sécurisée.\n\nExplorez nos différents modèles – ciseaux, articulées ou télescopiques – pour trouver la solution d'élévation adaptée à la configuration de votre site.",
+      "label": "Carte 4 - Description"
+    },
+    "card4ButtonText": {
+      "type": "string",
+      "required": true,
+      "default": "Explorez nos produits",
+      "label": "Carte 4 - Texte du bouton"
+    },
+    "card4ButtonUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/nacelles-elevatrices",
+      "label": "Carte 4 - Lien du bouton"
+    },
+    "card4MediaUrl": {
+      "type": "string",
+      "required": true,
+      "default": "https://placehold.co/400x300",
+      "label": "Carte 4 - Image/Vidéo"
+    },
+    "card4MediaAlt": {
+      "type": "string",
+      "required": true,
+      "default": "Nacelles Élévatrices",
+      "label": "Carte 4 - Texte alternatif"
+    },
+    "card4MediaType": {
+      "type": "string",
+      "required": true,
+      "default": "image",
+      "label": "Carte 4 - Type de média"
+    },
+    "card5Title": {
+      "type": "string",
+      "required": true,
+      "default": "Levage",
+      "label": "Carte 5 - Titre"
+    },
+    "card5Text": {
+      "type": "string",
+      "required": true,
+      "default": "Pour la manutention verticale de charges lourdes et encombrantes, notre gamme de matériel de levage vous garantit fiabilité et sécurité. Que vous ayez besoin de palans, treuils, grues ou portiques conçus pour les applications industrielles les plus exigeantes.\n\nDécouvrez nos sélection de palans, treuils, grues et portiques conçus pour les applications industrielles les plus exigeantes.",
+      "label": "Carte 5 - Description"
+    },
+    "card5ButtonText": {
+      "type": "string",
+      "required": true,
+      "default": "Explorez nos produits",
+      "label": "Carte 5 - Texte du bouton"
+    },
+    "card5ButtonUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/levage",
+      "label": "Carte 5 - Lien du bouton"
+    },
+    "card5MediaUrl": {
+      "type": "string",
+      "required": true,
+      "default": "https://placehold.co/400x300",
+      "label": "Carte 5 - Image/Vidéo"
+    },
+    "card5MediaAlt": {
+      "type": "string",
+      "required": true,
+      "default": "Levage",
+      "label": "Carte 5 - Texte alternatif"
+    },
+    "card5MediaType": {
+      "type": "string",
+      "required": true,
+      "default": "image",
+      "label": "Carte 5 - Type de média"
+    },
+    "card6Title": {
+      "type": "string",
+      "required": true,
+      "default": "Chariots et Manutention",
+      "label": "Carte 6 - Titre"
+    },
+    "card6Text": {
+      "type": "string",
+      "required": true,
+      "default": "Facilitez le transport de vos outils, pièces et marchandises au quotidien. Nos chariots de manutention robustes et polyvalents sont conçus pour s'adapter à tous les environnements.\n\nDécouvrez nos plateformes roulantes, dessertes et chariots à plateau pour une organisation optimisée.",
+      "label": "Carte 6 - Description"
+    },
+    "card6ButtonText": {
+      "type": "string",
+      "required": true,
+      "default": "Explorez nos produits",
+      "label": "Carte 6 - Texte du bouton"
+    },
+    "card6ButtonUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/chariots-manutention",
+      "label": "Carte 6 - Lien du bouton"
+    },
+    "card6MediaUrl": {
+      "type": "string",
+      "required": true,
+      "default": "https://placehold.co/400x300",
+      "label": "Carte 6 - Image/Vidéo"
+    },
+    "card6MediaAlt": {
+      "type": "string",
+      "required": true,
+      "default": "Chariots et Manutention",
+      "label": "Carte 6 - Texte alternatif"
+    },
+    "card6MediaType": {
+      "type": "string",
+      "required": true,
+      "default": "image",
+      "label": "Carte 6 - Type de média"
+    }
+  },
+  "active": true
+}
