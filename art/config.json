@@ -1,0 +1,494 @@
+{
+  "id": "art",
+  "name": "Art - Catalogue de produits",
+  "type": "catalog",
+  "version": 1,
+  "description": "Composant de catalogue de produits avec panneau de filtres latéral, grille de produits 4x2 et pagination.",
+  "author": "MajoliHub",
+  "thumbnail": "/placeholder.svg",
+  "dependencies": {
+    "lucide-react": "^0.462.0"
+  },
+  "required": {
+    "primaryColor": true,
+    "backgroundColor": true,
+    "fontFamily": true
+  },
+  "props": {
+    "primaryColor": {
+      "type": "string",
+      "required": true,
+      "default": "#000000",
+      "label": "Couleur principale"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "required": true,
+      "default": "#FFFFFF",
+      "label": "Couleur de fond"
+    },
+    "textColor": {
+      "type": "string",
+      "required": true,
+      "default": "#000000",
+      "label": "Couleur du texte"
+    },
+    "secondaryTextColor": {
+      "type": "string",
+      "required": true,
+      "default": "#666666",
+      "label": "Couleur du texte secondaire"
+    },
+    "linkColor": {
+      "type": "string",
+      "required": true,
+      "default": "#007BFF",
+      "label": "Couleur des liens"
+    },
+    "borderColor": {
+      "type": "string",
+      "required": true,
+      "default": "#D1D1D1",
+      "label": "Couleur des bordures"
+    },
+    "activePageColor": {
+      "type": "string",
+      "required": true,
+      "default": "#007BFF",
+      "label": "Couleur page active"
+    },
+    "fontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "Arial, Helvetica, sans-serif",
+      "label": "Police principale"
+    },
+    "productsFoundText": {
+      "type": "string",
+      "required": true,
+      "default": "150 produits trouvés",
+      "label": "Texte nombre de produits"
+    },
+    "sortByLabel": {
+      "type": "string",
+      "required": true,
+      "default": "Trier par :",
+      "label": "Label de tri"
+    },
+    "sortByValue": {
+      "type": "string",
+      "required": true,
+      "default": "Pertinence",
+      "label": "Valeur de tri"
+    },
+    "subcategoriesTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Sous-catégories",
+      "label": "Titre Sous-catégories"
+    },
+    "subcategory1": {
+      "type": "string",
+      "required": true,
+      "default": "Gerbeurs Manuels",
+      "label": "Sous-catégorie 1"
+    },
+    "subcategory2": {
+      "type": "string",
+      "required": true,
+      "default": "Gerbeurs Électriques",
+      "label": "Sous-catégorie 2"
+    },
+    "subcategory3": {
+      "type": "string",
+      "required": true,
+      "default": "Gerbeurs Semi-Électriques",
+      "label": "Sous-catégorie 3"
+    },
+    "seeMoreText": {
+      "type": "string",
+      "required": true,
+      "default": "Voir plus",
+      "label": "Texte Voir plus"
+    },
+    "availabilityTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Disponibilité",
+      "label": "Titre Disponibilité"
+    },
+    "availabilityOption1": {
+      "type": "string",
+      "required": true,
+      "default": "En stock",
+      "label": "Disponibilité option 1"
+    },
+    "availabilityOption2": {
+      "type": "string",
+      "required": true,
+      "default": "En promotion",
+      "label": "Disponibilité option 2"
+    },
+    "brandsTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Marques",
+      "label": "Titre Marques"
+    },
+    "brand1": {
+      "type": "string",
+      "required": true,
+      "default": "Heli",
+      "label": "Marque 1"
+    },
+    "brand2": {
+      "type": "string",
+      "required": true,
+      "default": "Motrise",
+      "label": "Marque 2"
+    },
+    "priceTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Prix (€ HT)",
+      "label": "Titre Prix"
+    },
+    "priceOption1": {
+      "type": "string",
+      "required": true,
+      "default": "Moins de 1000 €",
+      "label": "Prix option 1"
+    },
+    "priceOption2": {
+      "type": "string",
+      "required": true,
+      "default": "1000 € - 2000 €",
+      "label": "Prix option 2"
+    },
+    "priceOption3": {
+      "type": "string",
+      "required": true,
+      "default": "Plus de 2000 €",
+      "label": "Prix option 3"
+    },
+    "capacityTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Capacité de charge (kg)",
+      "label": "Titre Capacité"
+    },
+    "capacityOption1": {
+      "type": "string",
+      "required": true,
+      "default": "Moins de 500 kg",
+      "label": "Capacité option 1"
+    },
+    "capacityOption2": {
+      "type": "string",
+      "required": true,
+      "default": "500 kg - 1000 kg",
+      "label": "Capacité option 2"
+    },
+    "capacityOption3": {
+      "type": "string",
+      "required": true,
+      "default": "Plus de 1000 kg",
+      "label": "Capacité option 3"
+    },
+    "heightTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Hauteur de levée (mm)",
+      "label": "Titre Hauteur"
+    },
+    "heightOption1": {
+      "type": "string",
+      "required": true,
+      "default": "Moins de 2000 mm",
+      "label": "Hauteur option 1"
+    },
+    "heightOption2": {
+      "type": "string",
+      "required": true,
+      "default": "2000 - 3000 mm",
+      "label": "Hauteur option 2"
+    },
+    "heightOption3": {
+      "type": "string",
+      "required": true,
+      "default": "Plus de 3000 mm",
+      "label": "Hauteur option 3"
+    },
+    "mediaUrl1": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "label": "Image produit 1"
+    },
+    "mediaAlt1": {
+      "type": "string",
+      "required": false,
+      "default": "Produit 1",
+      "label": "Alt produit 1"
+    },
+    "mediaType1": {
+      "type": "string",
+      "required": false,
+      "default": "image",
+      "label": "Type média produit 1"
+    },
+    "productName1": {
+      "type": "string",
+      "required": true,
+      "default": "Gerbeur Manuel 1",
+      "label": "Nom produit 1"
+    },
+    "productPrice1": {
+      "type": "string",
+      "required": true,
+      "default": "999 € HT",
+      "label": "Prix produit 1"
+    },
+    "mediaUrl2": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "label": "Image produit 2"
+    },
+    "mediaAlt2": {
+      "type": "string",
+      "required": false,
+      "default": "Produit 2",
+      "label": "Alt produit 2"
+    },
+    "mediaType2": {
+      "type": "string",
+      "required": false,
+      "default": "image",
+      "label": "Type média produit 2"
+    },
+    "productName2": {
+      "type": "string",
+      "required": true,
+      "default": "Gerbeur Manuel 2",
+      "label": "Nom produit 2"
+    },
+    "productPrice2": {
+      "type": "string",
+      "required": true,
+      "default": "1299 € HT",
+      "label": "Prix produit 2"
+    },
+    "mediaUrl3": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "label": "Image produit 3"
+    },
+    "mediaAlt3": {
+      "type": "string",
+      "required": false,
+      "default": "Produit 3",
+      "label": "Alt produit 3"
+    },
+    "mediaType3": {
+      "type": "string",
+      "required": false,
+      "default": "image",
+      "label": "Type média produit 3"
+    },
+    "productName3": {
+      "type": "string",
+      "required": true,
+      "default": "Gerbeur Électrique 1",
+      "label": "Nom produit 3"
+    },
+    "productPrice3": {
+      "type": "string",
+      "required": true,
+      "default": "1599 € HT",
+      "label": "Prix produit 3"
+    },
+    "mediaUrl4": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "label": "Image produit 4"
+    },
+    "mediaAlt4": {
+      "type": "string",
+      "required": false,
+      "default": "Produit 4",
+      "label": "Alt produit 4"
+    },
+    "mediaType4": {
+      "type": "string",
+      "required": false,
+      "default": "image",
+      "label": "Type média produit 4"
+    },
+    "productName4": {
+      "type": "string",
+      "required": true,
+      "default": "Gerbeur Électrique 2",
+      "label": "Nom produit 4"
+    },
+    "productPrice4": {
+      "type": "string",
+      "required": true,
+      "default": "1899 € HT",
+      "label": "Prix produit 4"
+    },
+    "mediaUrl5": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "label": "Image produit 5"
+    },
+    "mediaAlt5": {
+      "type": "string",
+      "required": false,
+      "default": "Produit 5",
+      "label": "Alt produit 5"
+    },
+    "mediaType5": {
+      "type": "string",
+      "required": false,
+      "default": "image",
+      "label": "Type média produit 5"
+    },
+    "productName5": {
+      "type": "string",
+      "required": true,
+      "default": "Gerbeur Semi-Électrique 1",
+      "label": "Nom produit 5"
+    },
+    "productPrice5": {
+      "type": "string",
+      "required": true,
+      "default": "2199 € HT",
+      "label": "Prix produit 5"
+    },
+    "mediaUrl6": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "label": "Image produit 6"
+    },
+    "mediaAlt6": {
+      "type": "string",
+      "required": false,
+      "default": "Produit 6",
+      "label": "Alt produit 6"
+    },
+    "mediaType6": {
+      "type": "string",
+      "required": false,
+      "default": "image",
+      "label": "Type média produit 6"
+    },
+    "productName6": {
+      "type": "string",
+      "required": true,
+      "default": "Gerbeur Semi-Électrique 2",
+      "label": "Nom produit 6"
+    },
+    "productPrice6": {
+      "type": "string",
+      "required": true,
+      "default": "2499 € HT",
+      "label": "Prix produit 6"
+    },
+    "mediaUrl7": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "label": "Image produit 7"
+    },
+    "mediaAlt7": {
+      "type": "string",
+      "required": false,
+      "default": "Produit 7",
+      "label": "Alt produit 7"
+    },
+    "mediaType7": {
+      "type": "string",
+      "required": false,
+      "default": "image",
+      "label": "Type média produit 7"
+    },
+    "productName7": {
+      "type": "string",
+      "required": true,
+      "default": "Gerbeur Manuel 3",
+      "label": "Nom produit 7"
+    },
+    "productPrice7": {
+      "type": "string",
+      "required": true,
+      "default": "899 € HT",
+      "label": "Prix produit 7"
+    },
+    "mediaUrl8": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "label": "Image produit 8"
+    },
+    "mediaAlt8": {
+      "type": "string",
+      "required": false,
+      "default": "Produit 8",
+      "label": "Alt produit 8"
+    },
+    "mediaType8": {
+      "type": "string",
+      "required": false,
+      "default": "image",
+      "label": "Type média produit 8"
+    },
+    "productName8": {
+      "type": "string",
+      "required": true,
+      "default": "Gerbeur Électrique 3",
+      "label": "Nom produit 8"
+    },
+    "productPrice8": {
+      "type": "string",
+      "required": true,
+      "default": "1799 € HT",
+      "label": "Prix produit 8"
+    },
+    "page1": {
+      "type": "string",
+      "required": true,
+      "default": "1",
+      "label": "Page 1"
+    },
+    "page2": {
+      "type": "string",
+      "required": true,
+      "default": "2",
+      "label": "Page 2"
+    },
+    "page3": {
+      "type": "string",
+      "required": true,
+      "default": "3",
+      "label": "Page 3"
+    },
+    "page4": {
+      "type": "string",
+      "required": true,
+      "default": "4",
+      "label": "Page 4"
+    },
+    "page5": {
+      "type": "string",
+      "required": true,
+      "default": "5",
+      "label": "Page 5"
+    }
+  },
+  "active": true
+}
