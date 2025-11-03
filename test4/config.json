@@ -1,0 +1,201 @@
+{
+  "id": "test4",
+  "name": "Contact Section",
+  "type": "contact",
+  "version": 1,
+  "description": "Section de contact responsive avec formulaire, cartes d'information et carte Google Maps intégrée.",
+  "author": "MajoliHub",
+  "thumbnail": "/placeholder.svg",
+  "dependencies": {},
+  "required": {
+    "primaryColor": true,
+    "secondaryColor": true,
+    "backgroundColor": true,
+    "textColor": true,
+    "fontFamily": true,
+    "secondaryFontFamily": true
+  },
+  "props": {
+    "primaryColor": {
+      "type": "string",
+      "required": true,
+      "default": "#0066FF",
+      "label": "Couleur primaire"
+    },
+    "secondaryColor": {
+      "type": "string",
+      "required": true,
+      "default": "#FFFFFF",
+      "label": "Couleur secondaire"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "required": true,
+      "default": "#F9FAFB",
+      "label": "Couleur de fond"
+    },
+    "textColor": {
+      "type": "string",
+      "required": true,
+      "default": "#1F2937",
+      "label": "Couleur du texte"
+    },
+    "fontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "Inter",
+      "label": "Police principale (Titres)"
+    },
+    "secondaryFontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "Inter",
+      "label": "Police secondaire (Texte)"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Contactez-Nous",
+      "label": "Titre principal"
+    },
+    "paddingTop": {
+      "type": "number",
+      "required": true,
+      "default": 60,
+      "label": "Espacement haut"
+    },
+    "paddingBottom": {
+      "type": "number",
+      "required": true,
+      "default": 60,
+      "label": "Espacement bas"
+    },
+    "formNameLabel": {
+      "type": "string",
+      "required": true,
+      "default": "Nom",
+      "label": "Label champ nom"
+    },
+    "formNamePlaceholder": {
+      "type": "string",
+      "required": true,
+      "default": "Nom",
+      "label": "Placeholder champ nom"
+    },
+    "formPhoneLabel": {
+      "type": "string",
+      "required": true,
+      "default": "Téléphone",
+      "label": "Label champ téléphone"
+    },
+    "formPhonePlaceholder": {
+      "type": "string",
+      "required": true,
+      "default": "",
+      "label": "Placeholder champ téléphone"
+    },
+    "formEmailLabel": {
+      "type": "string",
+      "required": true,
+      "default": "E-mail",
+      "label": "Label champ email"
+    },
+    "formEmailPlaceholder": {
+      "type": "string",
+      "required": true,
+      "default": "E-mail",
+      "label": "Placeholder champ email"
+    },
+    "formMessageLabel": {
+      "type": "string",
+      "required": true,
+      "default": "Message",
+      "label": "Label champ message"
+    },
+    "formMessagePlaceholder": {
+      "type": "string",
+      "required": true,
+      "default": "Message",
+      "label": "Placeholder champ message"
+    },
+    "submitButtonText": {
+      "type": "string",
+      "required": true,
+      "default": "Envoyer",
+      "label": "Texte bouton envoyer"
+    },
+    "phoneCountryCode": {
+      "type": "string",
+      "required": true,
+      "default": "+33",
+      "label": "Code pays téléphone"
+    },
+    "infoCard1Icon": {
+      "type": "string",
+      "required": true,
+      "default": "Mail",
+      "label": "Icône carte info 1"
+    },
+    "infoCard1Title": {
+      "type": "string",
+      "required": true,
+      "default": "contact@nomdumail.fr",
+      "label": "Titre carte info 1"
+    },
+    "infoCard1Link": {
+      "type": "string",
+      "required": true,
+      "default": "mailto:contact@nomdumail.fr",
+      "label": "Lien carte info 1"
+    },
+    "infoCard2Icon": {
+      "type": "string",
+      "required": true,
+      "default": "Phone",
+      "label": "Icône carte info 2"
+    },
+    "infoCard2Title": {
+      "type": "string",
+      "required": true,
+      "default": "09 73 38 30 77",
+      "label": "Titre carte info 2"
+    },
+    "infoCard2Link": {
+      "type": "string",
+      "required": true,
+      "default": "tel:0973383077",
+      "label": "Lien carte info 2"
+    },
+    "infoCard3Icon": {
+      "type": "string",
+      "required": true,
+      "default": "MapPin",
+      "label": "Icône carte info 3"
+    },
+    "infoCard3Title": {
+      "type": "string",
+      "required": true,
+      "default": "63 Rue Paul Testé,",
+      "label": "Titre carte info 3"
+    },
+    "infoCard3Subtitle": {
+      "type": "string",
+      "required": true,
+      "default": "69120 Vaulx-en-Velin",
+      "label": "Sous-titre carte info 3"
+    },
+    "infoCard3Link": {
+      "type": "string",
+      "required": true,
+      "default": "https://www.google.com/maps/search/?api=1&query=63+Rue+Paul+Testé+69120+Vaulx-en-Velin",
+      "label": "Lien carte info 3"
+    },
+    "mapEmbedUrl": {
+      "type": "string",
+      "required": true,
+      "default": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.8662524871234!2d4.920684615534445!3d45.78350597910568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4c02c8c8c8c8d%3A0x0!2zNDXCsDQ3JzAwLjYiTiA0wrA1NSczNS4wIkU!5e0!3m2!1sen!2sfr!4v1234567890123",
+      "label": "URL embed Google Maps"
+    }
+  },
+  "active": true
+}
