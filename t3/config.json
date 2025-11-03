@@ -1,0 +1,183 @@
+{
+  "id": "t3",
+  "name": "T3 - Section Hero avec Cartes",
+  "type": "hero",
+  "version": 1,
+  "description": "Section hero moderne avec titre, description, 3 cartes de fonctionnalités et média. Design responsive et élégant.",
+  "author": "MajoliHub",
+  "thumbnail": "/placeholder.svg",
+  "dependencies": {
+    "lucide-react": "^0.462.0"
+  },
+  "required": {
+    "primaryColor": true,
+    "secondaryColor": true,
+    "backgroundColor": true,
+    "textColor": true,
+    "fontFamily": true,
+    "secondaryFontFamily": true
+  },
+  "props": {
+    "primaryColor": {
+      "type": "string",
+      "required": true,
+      "default": "#3B82F6",
+      "label": "Couleur principale"
+    },
+    "secondaryColor": {
+      "type": "string",
+      "required": true,
+      "default": "#1E40AF",
+      "label": "Couleur secondaire"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "required": true,
+      "default": "#F9FAFB",
+      "label": "Couleur de fond"
+    },
+    "textColor": {
+      "type": "string",
+      "required": true,
+      "default": "#1F2937",
+      "label": "Couleur du texte"
+    },
+    "fontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "Inter",
+      "label": "Police principale (Titres)"
+    },
+    "secondaryFontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "Poppins",
+      "label": "Police secondaire (Texte)"
+    },
+    "titlePrefix": {
+      "type": "string",
+      "required": true,
+      "default": "Découvrez",
+      "label": "Préfixe du titre"
+    },
+    "mainTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Nos Solutions Innovantes",
+      "label": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true,
+      "default": "Transformez votre entreprise avec nos services",
+      "label": "Sous-titre"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "default": "Nous proposons des solutions sur mesure adaptées à vos besoins pour vous aider à atteindre vos objectifs avec excellence et efficacité.",
+      "label": "Description"
+    },
+    "ctaText": {
+      "type": "string",
+      "required": true,
+      "default": "Commencer maintenant",
+      "label": "Texte du bouton"
+    },
+    "ctaLink": {
+      "type": "string",
+      "required": true,
+      "default": "/contact",
+      "label": "Lien du bouton"
+    },
+    "card1Title": {
+      "type": "string",
+      "required": true,
+      "default": "Performance",
+      "label": "Titre carte 1"
+    },
+    "card1Description": {
+      "type": "string",
+      "required": true,
+      "default": "Optimisez vos processus pour une efficacité maximale",
+      "label": "Description carte 1"
+    },
+    "card1Icon": {
+      "type": "string",
+      "required": true,
+      "default": "Zap",
+      "label": "Icône carte 1"
+    },
+    "card2Title": {
+      "type": "string",
+      "required": true,
+      "default": "Innovation",
+      "label": "Titre carte 2"
+    },
+    "card2Description": {
+      "type": "string",
+      "required": true,
+      "default": "Adoptez les dernières technologies pour rester compétitif",
+      "label": "Description carte 2"
+    },
+    "card2Icon": {
+      "type": "string",
+      "required": true,
+      "default": "Sparkles",
+      "label": "Icône carte 2"
+    },
+    "card3Title": {
+      "type": "string",
+      "required": true,
+      "default": "Support",
+      "label": "Titre carte 3"
+    },
+    "card3Description": {
+      "type": "string",
+      "required": true,
+      "default": "Bénéficiez d'un accompagnement personnalisé 24/7",
+      "label": "Description carte 3"
+    },
+    "card3Icon": {
+      "type": "string",
+      "required": true,
+      "default": "Shield",
+      "label": "Icône carte 3"
+    },
+    "mediaUrl1": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "label": "Média principal (Image ou Vidéo)"
+    },
+    "mediaAlt1": {
+      "type": "string",
+      "required": false,
+      "default": "Image principale",
+      "label": "Texte alternatif média"
+    },
+    "mediaType1": {
+      "type": "string",
+      "required": false,
+      "default": "image",
+      "label": "Type de média",
+      "options": [
+        "image",
+        "video"
+      ]
+    },
+    "paddingTop": {
+      "type": "number",
+      "required": true,
+      "default": 80,
+      "label": "Espacement haut (px)"
+    },
+    "paddingBottom": {
+      "type": "number",
+      "required": true,
+      "default": 80,
+      "label": "Espacement bas (px)"
+    }
+  },
+  "active": true
+}
