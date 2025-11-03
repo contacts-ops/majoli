@@ -1,0 +1,220 @@
+{
+  "id": "gerb",
+  "name": "Gerb - Grille d'équipements",
+  "type": "grid",
+  "version": 1,
+  "description": "Grille responsive de 6 cartes présentant différents types d'équipements de manutention.",
+  "author": "MajoliHub",
+  "thumbnail": "/placeholder.svg",
+  "dependencies": {},
+  "required": {
+    "backgroundColor": true,
+    "labelBackgroundColor": true,
+    "labelTextColor": true,
+    "fontFamily": true
+  },
+  "props": {
+    "backgroundColor": {
+      "type": "string",
+      "required": true,
+      "default": "#FFFFFF"
+    },
+    "labelBackgroundColor": {
+      "type": "string",
+      "required": true,
+      "default": "#0073e6"
+    },
+    "labelTextColor": {
+      "type": "string",
+      "required": true,
+      "default": "#FFFFFF"
+    },
+    "fontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "Arial",
+      "label": "Police principale"
+    },
+    "paddingTop": {
+      "type": "number",
+      "required": true,
+      "default": 40,
+      "label": "Padding top"
+    },
+    "paddingBottom": {
+      "type": "number",
+      "required": true,
+      "default": 40,
+      "label": "Padding bottom"
+    },
+    "mediaUrl1": {
+      "type": "string",
+      "required": true,
+      "default": "/placeholder.svg",
+      "label": "Image 1 - Transpalettes"
+    },
+    "mediaAlt1": {
+      "type": "string",
+      "required": true,
+      "default": "Transpalettes",
+      "label": "Alt 1"
+    },
+    "mediaType1": {
+      "type": "string",
+      "required": true,
+      "default": "image",
+      "label": "Type média 1"
+    },
+    "label1": {
+      "type": "string",
+      "required": true,
+      "default": "Transpalettes"
+    },
+    "link1": {
+      "type": "string",
+      "required": true,
+      "default": "/transpalettes"
+    },
+    "mediaUrl2": {
+      "type": "string",
+      "required": true,
+      "default": "/placeholder.svg",
+      "label": "Image 2 - Gerbeurs"
+    },
+    "mediaAlt2": {
+      "type": "string",
+      "required": true,
+      "default": "Gerbeurs",
+      "label": "Alt 2"
+    },
+    "mediaType2": {
+      "type": "string",
+      "required": true,
+      "default": "image",
+      "label": "Type média 2"
+    },
+    "label2": {
+      "type": "string",
+      "required": true,
+      "default": "Gerbeurs"
+    },
+    "link2": {
+      "type": "string",
+      "required": true,
+      "default": "/gerbeurs"
+    },
+    "mediaUrl3": {
+      "type": "string",
+      "required": true,
+      "default": "/placeholder.svg",
+      "label": "Image 3 - Tables Élévatrices"
+    },
+    "mediaAlt3": {
+      "type": "string",
+      "required": true,
+      "default": "Tables Élévatrices",
+      "label": "Alt 3"
+    },
+    "mediaType3": {
+      "type": "string",
+      "required": true,
+      "default": "image",
+      "label": "Type média 3"
+    },
+    "label3": {
+      "type": "string",
+      "required": true,
+      "default": "Tables Élévatrices"
+    },
+    "link3": {
+      "type": "string",
+      "required": true,
+      "default": "/tables-elevatrices"
+    },
+    "mediaUrl4": {
+      "type": "string",
+      "required": true,
+      "default": "/placeholder.svg",
+      "label": "Image 4 - Nacelles Élévatrices"
+    },
+    "mediaAlt4": {
+      "type": "string",
+      "required": true,
+      "default": "Nacelles Élévatrices",
+      "label": "Alt 4"
+    },
+    "mediaType4": {
+      "type": "string",
+      "required": true,
+      "default": "image",
+      "label": "Type média 4"
+    },
+    "label4": {
+      "type": "string",
+      "required": true,
+      "default": "Nacelles Élévatrices"
+    },
+    "link4": {
+      "type": "string",
+      "required": true,
+      "default": "/nacelles-elevatrices"
+    },
+    "mediaUrl5": {
+      "type": "string",
+      "required": true,
+      "default": "/placeholder.svg",
+      "label": "Image 5 - Levage"
+    },
+    "mediaAlt5": {
+      "type": "string",
+      "required": true,
+      "default": "Levage",
+      "label": "Alt 5"
+    },
+    "mediaType5": {
+      "type": "string",
+      "required": true,
+      "default": "image",
+      "label": "Type média 5"
+    },
+    "label5": {
+      "type": "string",
+      "required": true,
+      "default": "Levage"
+    },
+    "link5": {
+      "type": "string",
+      "required": true,
+      "default": "/levage"
+    },
+    "mediaUrl6": {
+      "type": "string",
+      "required": true,
+      "default": "/placeholder.svg",
+      "label": "Image 6 - Chariots et Manutention"
+    },
+    "mediaAlt6": {
+      "type": "string",
+      "required": true,
+      "default": "Chariots et Manutention",
+      "label": "Alt 6"
+    },
+    "mediaType6": {
+      "type": "string",
+      "required": true,
+      "default": "image",
+      "label": "Type média 6"
+    },
+    "label6": {
+      "type": "string",
+      "required": true,
+      "default": "Chariots et Manutention"
+    },
+    "link6": {
+      "type": "string",
+      "required": true,
+      "default": "/chariots-manutention"
+    }
+  },
+  "active": true
+}
