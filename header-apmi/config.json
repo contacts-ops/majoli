@@ -1,0 +1,202 @@
+{
+  "id": "header-apmi",
+  "name": "Header APMI Lyon",
+  "type": "header",
+  "version": 4,
+  "description": "Header responsive pour un site de APMI Lyon avec logo, navigation et design professionnel.",
+  "author": "MajoliHub",
+  "thumbnail": "/placeholder.svg",
+  "dependencies": {
+    "react-icons": "^4.0.0",
+    "lucide-react": "^0.263.1"
+  },
+  "required": {
+    "primaryColor": true,
+    "secondaryColor": true,
+    "backgroundColor": true,
+    "fontFamily": true
+  },
+  "props": {
+    "primaryColor": {
+      "type": "string",
+      "required": false,
+      "default": "#50AD34"
+    },
+    "secondaryColor": {
+      "type": "string",
+      "required": false,
+      "default": "#FFFFFF"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "required": false,
+      "default": "#000000"
+    },
+    "fontFamily": {
+      "type": "string",
+      "required": false,
+      "default": "'Source Sans 3'"
+    },
+    "mediaUrl": {
+      "type": "string",
+      "required": false,
+      "default": "/placeholder.svg",
+      "label": "Média (Image ou Vidéo)"
+    },
+    "mediaAlt": {
+      "type": "string",
+      "required": false,
+      "default": "Logo APMI Lyon",
+      "label": "Texte alternatif média"
+    },
+    "mediaType": {
+      "type": "string",
+      "required": false,
+      "default": "image",
+      "label": "Type de média",
+      "options": [
+        "image",
+        "video"
+      ]
+    },
+    "phone": {
+      "type": "string",
+      "required": false,
+      "default": "09 73 38 30 77"
+    },
+    "address": {
+      "type": "string",
+      "required": false,
+      "default": "contact@apmi-lyon.fr"
+    },
+    "phoneIcon": {
+      "type": "string",
+      "required": false,
+      "default": "Phone",
+      "label": "Icône téléphone"
+    },
+    "addressIcon": {
+      "type": "string",
+      "required": false,
+      "default": "MapPin",
+      "label": "Icône adresse"
+    },
+    "link1Text": {
+      "type": "string",
+      "required": false,
+      "default": "Accueil"
+    },
+    "link1Href": {
+      "type": "string",
+      "required": false,
+      "default": "/"
+    },
+    "link2Text": {
+      "type": "string",
+      "required": false,
+      "default": "Magasinage"
+    },
+    "link2Href": {
+      "type": "string",
+      "required": false,
+      "default": "/magasinage"
+    },
+    "link3Text": {
+      "type": "string",
+      "required": false,
+      "default": "Chariots"
+    },
+    "link3Href": {
+      "type": "string",
+      "required": false,
+      "default": "/chariots"
+    },
+    "link4Text": {
+      "type": "string",
+      "required": false,
+      "default": "Actualités/Blog"
+    },
+    "link4Href": {
+      "type": "string",
+      "required": false,
+      "default": "/actualites-blog"
+    },
+    "link5Text": {
+      "type": "string",
+      "required": false,
+      "default": "Médiathèque"
+    },
+    "link5Href": {
+      "type": "string",
+      "required": false,
+      "default": "/mediatheque"
+    },
+    "link6Text": {
+      "type": "string",
+      "required": false,
+      "default": "Contact"
+    },
+    "link6Href": {
+      "type": "string",
+      "required": false,
+      "default": "/contact"
+    },
+    "magasinageSubLink1Text": {
+      "type": "string",
+      "required": false,
+      "default": "Magasinage -3H/J"
+    },
+    "magasinageSubLink1Href": {
+      "type": "string",
+      "required": false,
+      "default": "/magasinage-3h-j"
+    },
+    "magasinageSubLink2Text": {
+      "type": "string",
+      "required": false,
+      "default": "Magasinage intensif"
+    },
+    "magasinageSubLink2Href": {
+      "type": "string",
+      "required": false,
+      "default": "/magasinage-intensif"
+    },
+    "chariotsSubLink1Text": {
+      "type": "string",
+      "required": false,
+      "default": "Chariots 3 roues"
+    },
+    "chariotsSubLink1Href": {
+      "type": "string",
+      "required": false,
+      "default": "/chariots-3-roues"
+    },
+    "chariotsSubLink2Text": {
+      "type": "string",
+      "required": false,
+      "default": "Chariots électriques"
+    },
+    "chariotsSubLink2Href": {
+      "type": "string",
+      "required": false,
+      "default": "/chariots-electriques"
+    },
+    "chariotsSubLink3Text": {
+      "type": "string",
+      "required": false,
+      "default": "Chariots diesel & gaz"
+    },
+    "chariotsSubLink3Href": {
+      "type": "string",
+      "required": false,
+      "default": "/chariots-diesel-gaz"
+    },
+    "dropdownIcon": {
+      "type": "string",
+      "required": false,
+      "default": "ChevronDown",
+      "label": "Icône du menu déroulant"
+    }
+  },
+  "active": true
+}
