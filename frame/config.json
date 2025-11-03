@@ -1,0 +1,139 @@
+{
+  "id": "frame",
+  "name": "Frame",
+  "type": "section",
+  "version": 1,
+  "description": "Section frame élégante avec bordure décorative, contenu textuel et médias. Parfaitement responsive et personnalisable.",
+  "author": "MajoliHub",
+  "thumbnail": "/placeholder.svg",
+  "dependencies": {
+    "lucide-react": "^0.462.0"
+  },
+  "required": {
+    "primaryColor": true,
+    "secondaryColor": true,
+    "backgroundColor": true,
+    "textColor": true,
+    "fontFamily": true,
+    "secondaryFontFamily": true
+  },
+  "props": {
+    "primaryColor": {
+      "type": "string",
+      "required": true,
+      "default": "#2563EB",
+      "label": "Couleur primaire"
+    },
+    "secondaryColor": {
+      "type": "string",
+      "required": true,
+      "default": "#F97316",
+      "label": "Couleur secondaire"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "required": true,
+      "default": "#FFFFFF",
+      "label": "Couleur de fond"
+    },
+    "textColor": {
+      "type": "string",
+      "required": true,
+      "default": "#1F2937",
+      "label": "Couleur du texte"
+    },
+    "fontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "Inter",
+      "label": "Police principale (Titres)"
+    },
+    "secondaryFontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "Poppins",
+      "label": "Police secondaire (Corps de texte)"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Titre du Composant Frame",
+      "label": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true,
+      "default": "Sous-titre élégant et professionnel",
+      "label": "Sous-titre"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "default": "Cette section frame est conçue pour présenter votre contenu de manière élégante et professionnelle. Personnalisez tous les éléments selon vos besoins.",
+      "label": "Description"
+    },
+    "ctaText": {
+      "type": "string",
+      "required": true,
+      "default": "Découvrir plus",
+      "label": "Texte du bouton"
+    },
+    "ctaLink": {
+      "type": "string",
+      "required": true,
+      "default": "/contact",
+      "label": "Lien du bouton"
+    },
+    "mediaUrl1": {
+      "type": "string",
+      "required": false,
+      "default": "/placeholder.svg",
+      "label": "URL du média principal"
+    },
+    "mediaAlt1": {
+      "type": "string",
+      "required": false,
+      "default": "Image principale",
+      "label": "Texte alternatif média 1"
+    },
+    "mediaType1": {
+      "type": "string",
+      "required": false,
+      "default": "image",
+      "label": "Type de média 1",
+      "options": ["image", "video"]
+    },
+    "mediaUrl2": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "label": "URL du média secondaire"
+    },
+    "mediaAlt2": {
+      "type": "string",
+      "required": false,
+      "default": "Image secondaire",
+      "label": "Texte alternatif média 2"
+    },
+    "mediaType2": {
+      "type": "string",
+      "required": false,
+      "default": "image",
+      "label": "Type de média 2",
+      "options": ["image", "video"]
+    },
+    "paddingTop": {
+      "type": "number",
+      "required": true,
+      "default": 80,
+      "label": "Espacement haut (px)"
+    },
+    "paddingBottom": {
+      "type": "number",
+      "required": true,
+      "default": 80,
+      "label": "Espacement bas (px)"
+    }
+  },
+  "active": true
+}
