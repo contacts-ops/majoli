@@ -1,0 +1,177 @@
+{
+  "id": "cont",
+  "name": "Contact Form",
+  "type": "contact",
+  "version": 1,
+  "description": "Section de formulaire de contact avec cartes d'information et carte de localisation.",
+  "author": "MajoliHub",
+  "thumbnail": "/placeholder.svg",
+  "dependencies": {
+    "lucide-react": "^0.462.0",
+    "react-icons": "^4.0.0"
+  },
+  "required": {
+    "backgroundColor": true,
+    "primaryColor": true,
+    "secondaryColor": true,
+    "textColor": true,
+    "fontFamily": true
+  },
+  "props": {
+    "backgroundColor": {
+      "type": "string",
+      "required": true,
+      "default": "#F7F7F7",
+      "label": "Couleur de fond"
+    },
+    "primaryColor": {
+      "type": "string",
+      "required": true,
+      "default": "#007BFF",
+      "label": "Couleur primaire"
+    },
+    "secondaryColor": {
+      "type": "string",
+      "required": true,
+      "default": "#FFFFFF",
+      "label": "Couleur secondaire"
+    },
+    "textColor": {
+      "type": "string",
+      "required": true,
+      "default": "#000000",
+      "label": "Couleur du texte"
+    },
+    "placeholderColor": {
+      "type": "string",
+      "required": true,
+      "default": "#B0B0B0",
+      "label": "Couleur des placeholders"
+    },
+    "buttonColor": {
+      "type": "string",
+      "required": true,
+      "default": "#007BFF",
+      "label": "Couleur du bouton"
+    },
+    "buttonTextColor": {
+      "type": "string",
+      "required": true,
+      "default": "#FFFFFF",
+      "label": "Couleur du texte du bouton"
+    },
+    "fontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "Arial",
+      "label": "Police principale"
+    },
+    "mainTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Contactez-Nous",
+      "label": "Titre principal"
+    },
+    "fieldNamePlaceholder": {
+      "type": "string",
+      "required": true,
+      "default": "Nom",
+      "label": "Placeholder du champ Nom"
+    },
+    "fieldPhonePlaceholder": {
+      "type": "string",
+      "required": true,
+      "default": "+33",
+      "label": "Placeholder du champ Téléphone"
+    },
+    "fieldEmailPlaceholder": {
+      "type": "string",
+      "required": true,
+      "default": "E-mail",
+      "label": "Placeholder du champ E-mail"
+    },
+    "fieldMessagePlaceholder": {
+      "type": "string",
+      "required": true,
+      "default": "Message",
+      "label": "Placeholder du champ Message"
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true,
+      "default": "Envoyer",
+      "label": "Texte du bouton"
+    },
+    "card1Icon": {
+      "type": "string",
+      "required": true,
+      "default": "Phone",
+      "label": "Icône carte 1"
+    },
+    "card1Text": {
+      "type": "string",
+      "required": true,
+      "default": "+33 1 23 45 67 89",
+      "label": "Texte carte 1"
+    },
+    "card2Icon": {
+      "type": "string",
+      "required": true,
+      "default": "Mail",
+      "label": "Icône carte 2"
+    },
+    "card2Text": {
+      "type": "string",
+      "required": true,
+      "default": "contact@example.com",
+      "label": "Texte carte 2"
+    },
+    "card3Icon": {
+      "type": "string",
+      "required": true,
+      "default": "MapPin",
+      "label": "Icône carte 3"
+    },
+    "card3Text": {
+      "type": "string",
+      "required": true,
+      "default": "123 Rue Example, Paris",
+      "label": "Texte carte 3"
+    },
+    "mediaUrl1": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "label": "Image/Vidéo de la carte"
+    },
+    "mediaAlt1": {
+      "type": "string",
+      "required": false,
+      "default": "Carte de localisation",
+      "label": "Texte alternatif de la carte"
+    },
+    "mediaType1": {
+      "type": "string",
+      "required": false,
+      "default": "image",
+      "label": "Type de média 1",
+      "options": [
+        "image",
+        "video"
+      ]
+    },
+    "paddingTop": {
+      "type": "number",
+      "required": true,
+      "default": 60,
+      "label": "Padding haut"
+    },
+    "paddingBottom": {
+      "type": "number",
+      "required": true,
+      "default": 60,
+      "label": "Padding bas"
+    }
+  },
+  "active": true
+}
