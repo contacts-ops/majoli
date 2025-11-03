@@ -1,0 +1,225 @@
+{
+  "id": "rer",
+  "name": "RER - Header Hero E-commerce",
+  "type": "hero",
+  "version": 1,
+  "description": "Composant header + hero pour site e-commerce de matériel de manutention avec navigation, barre de recherche et section hero complète.",
+  "author": "MajoliHub",
+  "thumbnail": "/placeholder.svg",
+  "dependencies": {
+    "react-icons": "^4.0.0",
+    "lucide-react": "^0.263.1"
+  },
+  "required": {
+    "primaryColor": true,
+    "secondaryColor": true,
+    "backgroundColor": true,
+    "ctaButtonColor": true,
+    "fontFamily": true,
+    "secondaryFontFamily": true
+  },
+  "props": {
+    "primaryColor": {
+      "type": "string",
+      "required": true,
+      "default": "#FFFFFF",
+      "label": "Couleur primaire"
+    },
+    "secondaryColor": {
+      "type": "string",
+      "required": true,
+      "default": "#FFFFFF",
+      "label": "Couleur secondaire (texte)"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "required": true,
+      "default": "#000000",
+      "label": "Couleur de fond header"
+    },
+    "ctaButtonColor": {
+      "type": "string",
+      "required": true,
+      "default": "#007BFF",
+      "label": "Couleur bouton CTA"
+    },
+    "fontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "Montserrat",
+      "label": "Police principale (titres)"
+    },
+    "secondaryFontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "Open Sans",
+      "label": "Police secondaire (texte)"
+    },
+    "mediaUrl1": {
+      "type": "string",
+      "required": true,
+      "default": "/placeholder.svg",
+      "label": "Logo (média)"
+    },
+    "mediaAlt1": {
+      "type": "string",
+      "required": true,
+      "default": "Logo de l'entreprise",
+      "label": "Logo (texte alternatif)"
+    },
+    "mediaType1": {
+      "type": "string",
+      "required": true,
+      "default": "image",
+      "label": "Logo (type)",
+      "options": ["image", "video"]
+    },
+    "mediaUrl2": {
+      "type": "string",
+      "required": true,
+      "default": "/placeholder.svg",
+      "label": "Image de fond hero"
+    },
+    "mediaAlt2": {
+      "type": "string",
+      "required": true,
+      "default": "Entrepôt avec matériel de manutention",
+      "label": "Image de fond (texte alternatif)"
+    },
+    "mediaType2": {
+      "type": "string",
+      "required": true,
+      "default": "image",
+      "label": "Image de fond (type)",
+      "options": ["image", "video"]
+    },
+    "link1Text": {
+      "type": "string",
+      "required": true,
+      "default": "Accueil"
+    },
+    "link1Href": {
+      "type": "string",
+      "required": true,
+      "default": "/"
+    },
+    "link2Text": {
+      "type": "string",
+      "required": true,
+      "default": "Nos Univers"
+    },
+    "link2Href": {
+      "type": "string",
+      "required": true,
+      "default": "/nos-univers"
+    },
+    "link3Text": {
+      "type": "string",
+      "required": true,
+      "default": "À Propos"
+    },
+    "link3Href": {
+      "type": "string",
+      "required": true,
+      "default": "/a-propos"
+    },
+    "link4Text": {
+      "type": "string",
+      "required": true,
+      "default": "Blog/Actualités"
+    },
+    "link4Href": {
+      "type": "string",
+      "required": true,
+      "default": "/blog"
+    },
+    "link5Text": {
+      "type": "string",
+      "required": true,
+      "default": "Contact"
+    },
+    "link5Href": {
+      "type": "string",
+      "required": true,
+      "default": "/contact"
+    },
+    "phone": {
+      "type": "string",
+      "required": true,
+      "default": "09 73 38 30 77"
+    },
+    "phoneIcon": {
+      "type": "string",
+      "required": true,
+      "default": "Phone",
+      "label": "Icône téléphone"
+    },
+    "email": {
+      "type": "string",
+      "required": true,
+      "default": "contact@pmil-lyon.fr"
+    },
+    "emailIcon": {
+      "type": "string",
+      "required": true,
+      "default": "Mail",
+      "label": "Icône email"
+    },
+    "profileIcon": {
+      "type": "string",
+      "required": true,
+      "default": "User",
+      "label": "Icône profil"
+    },
+    "favoritesIcon": {
+      "type": "string",
+      "required": true,
+      "default": "Heart",
+      "label": "Icône favoris"
+    },
+    "cartIcon": {
+      "type": "string",
+      "required": true,
+      "default": "ShoppingCart",
+      "label": "Icône panier"
+    },
+    "searchPlaceholder": {
+      "type": "string",
+      "required": true,
+      "default": "Rechercher un produit ou une marque"
+    },
+    "searchIcon": {
+      "type": "string",
+      "required": true,
+      "default": "Search",
+      "label": "Icône recherche"
+    },
+    "heroTitle": {
+      "type": "string",
+      "required": true,
+      "default": "VOTRE MATÉRIEL DE MANUTENTION, LIVRÉ EN EXPRESS"
+    },
+    "heroSubtitle": {
+      "type": "string",
+      "required": true,
+      "default": "Une gamme complète pour vos besoins de levage"
+    },
+    "ctaText": {
+      "type": "string",
+      "required": true,
+      "default": "Voir le matériel en stock"
+    },
+    "ctaLink": {
+      "type": "string",
+      "required": true,
+      "default": "/stock"
+    },
+    "mobileMenuIcon": {
+      "type": "string",
+      "required": true,
+      "default": "Menu",
+      "label": "Icône menu mobile"
+    }
+  },
+  "active": true
+}
