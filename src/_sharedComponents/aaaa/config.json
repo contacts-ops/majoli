@@ -1,0 +1,139 @@
+{
+  "id": "aaaa",
+  "name": "Product Band",
+  "type": "product",
+  "version": 1,
+  "description": "Bande produit complète avec image principale, galerie de vignettes, informations produit et boutons interactifs.",
+  "author": "MajoliHub", 
+  "thumbnail": "/placeholder.svg",
+  "dependencies": {
+    "lucide-react": "^0.462.0"
+  },
+  "required": {
+    "primaryColor": true,
+    "secondaryColor": true,
+    "fontFamily": true
+  },
+  "props": {
+    "primaryColor": {
+      "type": "string",
+      "required": true,
+      "default": "#3B82F6",
+      "label": "Couleur primaire (boutons)"
+    },
+    "secondaryColor": {
+      "type": "string", 
+      "required": true,
+      "default": "#FFFFFF",
+      "label": "Couleur secondaire (fond)"
+    },
+    "textColor": {
+      "type": "string",
+      "required": true,
+      "default": "#000000",
+      "label": "Couleur du texte"
+    },
+    "grayColor": {
+      "type": "string",
+      "required": true,
+      "default": "#9CA3AF",
+      "label": "Couleur grise (bordures, icônes)"
+    },
+    "fontFamily": {
+      "type": "string",
+      "required": true, 
+      "default": "Inter",
+      "label": "Police principale"
+    },
+    "mainImageUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/placeholder-warehouse.jpg",
+      "label": "Image principale du produit"
+    },
+    "mainImageAlt": {
+      "type": "string",
+      "required": true,
+      "default": "Entrepôt avec rayonnages et gerbeur électrique",
+      "label": "Texte alternatif image principale"
+    },
+    "thumbnailImage1": {
+      "type": "string",
+      "required": false,
+      "default": "/placeholder.svg",
+      "label": "Vignette 1"
+    },
+    "thumbnailImage2": {
+      "type": "string",
+      "required": false,
+      "default": "/placeholder.svg",
+      "label": "Vignette 2"
+    },
+    "thumbnailImage3": {
+      "type": "string",
+      "required": false,
+      "default": "/placeholder.svg",
+      "label": "Vignette 3"
+    },
+    "thumbnailImage4": {
+      "type": "string",
+      "required": false,
+      "default": "/placeholder.svg",
+      "label": "Vignette 4"
+    },
+    "thumbnailImage5": {
+      "type": "string",
+      "required": false,
+      "default": "/placeholder.svg",
+      "label": "Vignette 5"
+    },
+    "productReference": {
+      "type": "string",
+      "required": true,
+      "default": "Réf : GEB100-PRX-22. Marque : Manulift",
+      "label": "Référence et marque du produit"
+    },
+    "productName": {
+      "type": "string",
+      "required": true,
+      "default": "Gerbeur Électrique 1.5 Tonnes - Série Pro",
+      "label": "Nom du produit"
+    },
+    "productRating": {
+      "type": "string",
+      "required": true,
+      "default": "★★★★★ 22 avis",
+      "label": "Évaluations produit"
+    },
+    "productPrice": {
+      "type": "string",
+      "required": true,
+      "default": "2 999,00 € HT",
+      "label": "Prix du produit"
+    },
+    "addToCartText": {
+      "type": "string",
+      "required": true,
+      "default": "Ajouter au panier",
+      "label": "Texte bouton panier"
+    },
+    "addToCartLink": {
+      "type": "string",
+      "required": false,
+      "default": "#",
+      "label": "Lien bouton panier"
+    },
+    "paddingTop": {
+      "type": "number",
+      "required": true,
+      "default": 0,
+      "label": "Padding top"
+    },
+    "paddingBottom": {
+      "type": "number",
+      "required": true,
+      "default": 0,
+      "label": "Padding bottom"
+    }
+  }
+}
